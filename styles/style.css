@@ -22,10 +22,10 @@
   min-inline-size: 320px;
   /* почему тут 320 если в макете 375  */
   min-block-size: 100dvb;
-  background: url(../images/background.png) repeat,
-    repeating-linear-gradient(#d3d3d3 2px, rgb(0 0 0 / 0) 2px),
-    repeating-linear-gradient(to bottom, #d3d3d3 2px, rgb(0 0 0 / 0) 2px),
-    linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100vh);
+  background-image:
+    repeating-linear-gradient(to right, #d3d3d3 0px 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, transparent 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a);
   background-attachment: fixed;
   font-family: var(--font-family-main);
   font-variation-settings: "wght" var(--font-weight-text);
