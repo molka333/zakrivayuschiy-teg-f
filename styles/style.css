@@ -185,6 +185,7 @@
   background-color: white;
   position: relative;
   overflow: hidden;
+  transition: box-shadow 0.3s ease;
 }
 
 .card__like-button {
@@ -204,7 +205,6 @@
 
 .button:focus {
   box-shadow: black 2px 2px;
-  transition: box-shadow 0.3s ease;
 }
 
 .button::before {
